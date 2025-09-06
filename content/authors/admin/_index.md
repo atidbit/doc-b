@@ -58,7 +58,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: PhD in Organizational Leadership
+  - area: PhD in Organizational Leadership & Development
     institution: Columbia International University
     date_start: 2023-08-01
     date_end: 2025-12-13
