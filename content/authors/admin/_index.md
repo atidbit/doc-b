@@ -46,6 +46,7 @@ interests:
   - Leadership Theory
   - Government Acquisitions
   - Government Contracting
+  - Methodology (Qualitative + Quantitative)
 
 education:
   - area: PhD in Organizational Leadership
@@ -57,7 +58,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
- - area: EdD in Organizational Leadership and Design
+ - area: EdD in Organizational Leadership & Development
     institution: Grand Canyon University
     date_start: 2018-05-01
     date_end: 2023-06-19
