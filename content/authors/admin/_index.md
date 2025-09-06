@@ -57,7 +57,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
- - area: EdD in Organizational Leadership & Design
+ - area: EdD in Organizational Leadership and Design
     institution: Grand Canyon University
     date_start: 2018-05-01
     date_end: 2023-06-19
