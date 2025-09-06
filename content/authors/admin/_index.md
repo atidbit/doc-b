@@ -58,6 +58,15 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
+    - area: PhD in Organizational Leadership
+    institution: Columbia International University
+    date_start: 2023-08-01
+    date_end: 2025-12-13
+    summary: |
+      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com/thesis.pdf'
   - area: MS Computer Science
     institution: Carnegie Mellon University
     date_start: 2013-09-01
