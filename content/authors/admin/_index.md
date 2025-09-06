@@ -21,7 +21,7 @@ role: Professor, Defense Management (DFEM)
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: American Public University System
-    url: https://ai.meta.com/](https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
+    url: https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
