@@ -57,6 +57,15 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
+ - area: EdD in Organizational Leadership & Design
+    institution: Grand Canyon University
+    date_start: 2018-05-01
+    date_end: 2023-06-19
+    summary: |
+      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com/thesis.pdf'
   - area: MS Computer Science
     institution: Carnegie Mellon University
     date_start: 2013-09-01
