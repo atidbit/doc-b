@@ -1,20 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Vernon Brown
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
-
-# Pronouns (optional)
-pronouns: he/him
-
-# Status emoji
-status:
-  icon: 🚀
+first_name: Vernon
+last_name: Brown
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,12 +16,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Professor, Defense Management (DFEM)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: American Public University System
+    url: https://ai.meta.com/](https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,16 +41,17 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Psychological Safety
+  - Organizational Design
+  - Leadership Theory
+  - Government Acquisitions
+  - Government Contracting
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD Organizational Leadership (Psychological Safety Focus)
+    institution: Columbia International University
+    date_start: 2023-08-01
+    date_end: 2025-12-13
     summary: |
       Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
     button:
