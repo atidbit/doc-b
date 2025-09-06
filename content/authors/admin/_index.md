@@ -48,7 +48,7 @@ interests:
   - Government Contracting
 
 education:
-  - area: PhD Organizational Leadership (Psychological Safety Focus)
+  - area: PhD in Organizational Leadership
     institution: Columbia International University
     date_start: 2023-08-01
     date_end: 2025-12-13
