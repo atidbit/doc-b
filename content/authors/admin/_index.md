@@ -72,8 +72,7 @@ education:
     date_start: 2009-05-16
     date_end: 2012-02-15
     summary: |
-          GPA: 4.0/4.0
-      Specialized in information technology and project management.
+      GPA: 4.0/4.0
       Thesis on _Project Management Process: Theory, Concept, Technology, Management_. Supervised by Katherine Hyatt, Ph.D.
     button:
       text: 'Read Thesis'
