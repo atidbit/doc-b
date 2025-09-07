@@ -110,7 +110,7 @@ work:
     date_start: 2023-08-01
     date_end: 2025-12-14
     summary: |
-      Research on the transformational behaviors and their impact on psychological safety U.S. Federal government organizations.
+      Research on transformational leadership behaviors and their impact on psychological safety in U.S. Federal government organizations.
   - position: Dissertation Advisor/Content Expert
     company_name: Grand Canyon University
     company_url: 'https://gcu.edu/'
