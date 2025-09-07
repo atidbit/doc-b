@@ -166,7 +166,7 @@ languages:
   - name: English
     percent: 100
   - name: Japanese
-    percent: 31
+    percent: 30
     
 # Awards.
 #   Add/remove as many awards below as you like.
