@@ -103,12 +103,20 @@ work:
     date_end: ''
     summary: |
       Teaching government acquisitions, contracting, and defense management topics.
+  - position: Doctoral Research
+    company_name: Grand Canyon University
+    company_url: 'https://gcu.edu'
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: 2025-12-14
+    summary: |
+      Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations.
   - position: Dissertation Advisor/Content Expert
     company_name: Grand Canyon University
     company_url: 'https://gcu.edu/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2023-06-14
+    date_end: ''
     summary: |
       Advising doctoral students on research topics in leadership theory, organizational design, psychological safety, acquisitions, and program management.
   - position: Doctoral Research
