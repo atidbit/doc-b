@@ -53,7 +53,7 @@ education:
     institution: Columbia International University
     date_start: 2023-08-01
     date_end: 2025-12-13
-    summary: |
+    summary: |-2
       Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_.
       Dissertation Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
     button:
@@ -63,7 +63,7 @@ education:
     institution: Grand Canyon University
     date_start: 2018-05-10
     date_end: 2023-06-14
-    summary: |
+    summary: |-2
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.
       Dissertation Advisors: Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM.
     button:
