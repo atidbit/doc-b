@@ -65,7 +65,7 @@ education:
     date_end: 2023-06-14
     summary: |-2
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.  
-      Advisors: Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM.
+      Advisors: Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
     button:
       text: 'Read Dissertation'
       url: 'https://example.com/thesis.pdf'
@@ -74,7 +74,8 @@ education:
     date_start: 2009-05-16
     date_end: 2012-02-15
     summary: |
-      Thesis on _Project Management Process: Theory, Concept, Technology, Management_. Supervised by Katherine Hyatt, Ph.D.
+      Thesis on _Project Management Process: Theory, Concept, Technology, Management_.  
+      Supervised by Katherine Hyatt, Ph.D.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
