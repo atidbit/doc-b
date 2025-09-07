@@ -93,22 +93,38 @@ education:
       Minored in information systems, computuer science and mathematics.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Professor, Defense Management (DFEM)
+    company_name: American Public University System
+    company_url: 'https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2025-02-24
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+    summary: |
+      Teaching government acquisitions, contracting, and defense management topics.
+  - position: Dissertation Advisor/Content Expert
+    company_name: Grand Canyon University
+    company_url: 'https://gcu.edu/'
     company_logo: ''
     date_start: 2019-06-01
     date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Advising doctoral students on research topics in leadership theory, organizational design, psychological safety, acquisitions, and program management.
+  - position: Doctoral Research
+    company_name: Grand Canyon University
+    company_url: 'https://gcu.edu'
+    company_logo: ''
+    date_start: 2022-06-01
+    date_end: 2023-06-14
+    summary: |
+      Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations.
+  - position: U.S. Navy Research Assistant
+    company_name: Naval Postgraduate School
+    company_url: 'https://nps.edu/'
+    company_logo: ''
+    date_start: 2020-06-01
+    date_end: ''
+    summary: |
+      Research work to address real-world problems that face the military and national defense, primarily in the undersea domain.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
