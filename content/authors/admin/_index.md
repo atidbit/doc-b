@@ -147,7 +147,7 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Spanish
+  - name: Japanese
     percent: 50
 
 # Awards.
