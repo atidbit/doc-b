@@ -170,4 +170,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am a leadership and organizational psychologist with extensive experience investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific and across the United States at both the employee ans supervisor levels. My goal is to translate basic understandings about human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
