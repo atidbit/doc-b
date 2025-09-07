@@ -103,7 +103,7 @@ work:
     date_end: ''
     summary: |
       Teaching government acquisitions, contracting, and defense management topics.
-  - position: Doctoral Research
+  - position: Doctoral Research (Quantitative)
     company_name: Columbia International University
     company_url: 'https://ciu.edu'
     company_logo: ''
@@ -119,7 +119,7 @@ work:
     date_end: ''
     summary: |
       Advising doctoral students on research topics in leadership theory, organizational design, psychological safety, acquisitions, and program management.
-  - position: Doctoral Research
+  - position: Doctoral Research (Qualitative)
     company_name: Grand Canyon University
     company_url: 'https://gcu.edu'
     company_logo: ''
