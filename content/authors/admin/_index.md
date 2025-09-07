@@ -74,11 +74,10 @@ education:
     summary: |
       GPA: 4.0/4.0
       Thesis on _Project Management Process: Theory, Concept, Technology, Management_. Supervised by Katherine Hyatt, Ph.D.
+      Specialized in information technology and project management.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-    
-      Specialized in information technology and project management.
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
