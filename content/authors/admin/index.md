@@ -104,13 +104,13 @@ work:
     summary: |
       Teaching government acquisitions, contracting, and defense management topics.
   - position: Doctoral Research
-    company_name: Grand Canyon University
-    company_url: 'https://gcu.edu'
+    company_name: Columbia International University
+    company_url: 'https://ciu.edu'
     company_logo: ''
     date_start: 2023-08-01
     date_end: 2025-12-14
     summary: |
-      Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations.
+      Research on the transformational behaviors and their impact on psychological safety U.S. Federal government organizations.
   - position: Dissertation Advisor/Content Expert
     company_name: Grand Canyon University
     company_url: 'https://gcu.edu/'
@@ -126,7 +126,7 @@ work:
     date_start: 2022-06-01
     date_end: 2023-06-14
     summary: |
-      Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations.
+      Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations in Hawaii.
   - position: U.S. Navy Research Assistant
     company_name: Naval Postgraduate School
     company_url: 'https://nps.edu/'
