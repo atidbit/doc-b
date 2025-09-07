@@ -175,7 +175,7 @@ languages:
 awards:
   - title: Best Paper Award
     url: https://psafe.org/
-    date: '2022-12-01'
+    date: '2024-04-01'
     awarder: PSafe Project
     icon: hero/trophy
     summary: |
