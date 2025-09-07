@@ -79,6 +79,7 @@ education:
       GPA: 4.0/4.0
 
       Specialized in information technology and project management.
+    
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
