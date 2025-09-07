@@ -46,7 +46,7 @@ interests:
   - Leadership Theory
   - Government Acquisitions
   - Government Contracting
-  - Methodology (Qualitative + Quantitative)
+  - Methodology (Qual + Quant)
 
 education:
   - area: Ph.D. in Organizational Leadership
