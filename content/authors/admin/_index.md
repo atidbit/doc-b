@@ -78,6 +78,7 @@ education:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
     
+      Specialized in information technology and project management.
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
