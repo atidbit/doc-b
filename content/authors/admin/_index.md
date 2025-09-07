@@ -76,7 +76,7 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-      GPA: 4.0/4.0
+
 
       Specialized in information technology and project management.
     
