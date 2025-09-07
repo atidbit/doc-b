@@ -92,7 +92,7 @@ education:
     summary: |
       GPA: 3.6/4.0
     
-      Minored in information systems, computuer science and mathematics.
+      Minored in information systems, computer science and mathematics.
 
 work:
   - position: Professor, Defense Management (DFEM)
