@@ -168,9 +168,4 @@ languages:
   - name: Japanese
     percent: 35
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-
 I am a leadership and organizational psychologist with extensive experience investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific and across the United States at both the employee and supervisor levels. My goal is to translate basic understandings about human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
