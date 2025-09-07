@@ -54,7 +54,7 @@ education:
     date_start: 2023-08-01
     date_end: 2025-12-13
     summary: |
-      Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_. Supervised by Prof. Andrew Ng. Dissertation Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
+      Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_. Dissertation Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
     button:
       text: 'Read Dissertation'
       url: 'https://example.com/thesis.pdf'
