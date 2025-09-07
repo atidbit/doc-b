@@ -54,35 +54,46 @@ education:
     date_start: 2023-08-01
     date_end: 2025-12-13
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_. Supervised by Prof. Andrew Ng. Dissertation Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
     button:
-      text: 'Read Thesis'
+      text: 'Read Dissertation'
       url: 'https://example.com/thesis.pdf'
   - area: Ed.D. in Organizational Leadership & Development
     institution: Grand Canyon University
-    date_start: 2018-05-01
-    date_end: 2023-06-19
+    date_start: 2018-05-10
+    date_end: 2023-06-14
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_. Dissertation Advisors: Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM.
+    button:
+      text: 'Read Dissertation'
+      url: 'https://example.com/thesis.pdf'
+  - area: MBA (Information Technology Management)
+    institution: American Military University
+    date_start: 2009-05-16
+    date_end: 2012-02-15
+    summary: |
+      Thesis on _Project Management Process: Theory, Concept, Technology, Management_. Supervised by Katherine Hyatt, Ph.D.
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
       GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+      Specialized in information technology and project management.
+  - area: BS Homeland Security
+    institution: Thomas Edison State University
+    date_start: 2014-01-06
+    date_end: 2014-12-21
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      GPA: 4.0/4.0
+    
+  - area: BS Business Administration
+    institution: Hawaii Pacific University
+    date_start: 2000-12-01
+    date_end: 2004-05-31
+    summary: |
+      GPA: 3.6/4.0
+    
+      Minored in information systems, computuer science and mathematics.
 
 work:
   - position: Senior AI Research Scientist
@@ -170,4 +181,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-I am a leadership and organizational psychologist with extensive experience investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific and across the United States at both the employee ans supervisor levels. My goal is to translate basic understandings about human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
+I am a leadership and organizational psychologist with extensive experience investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific and across the United States at both the employee and supervisor levels. My goal is to translate basic understandings about human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
