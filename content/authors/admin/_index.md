@@ -115,15 +115,15 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: PHP & Active Server Pages
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: AI / Machine Learning
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Cloud Computing (AWS)
         description: ''
         percent: 85
         icon: cloud
@@ -131,15 +131,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Hiking & Exploring Nature
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Building AI Agents
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Human Behavior Reading
         description: ''
         percent: 70
         icon: book-open
