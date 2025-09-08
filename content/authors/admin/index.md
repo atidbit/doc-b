@@ -188,7 +188,7 @@ awards:
     url: https://psafe.org/
     date: '2024-04-01'
     awarder: PSafe Project
-    icon: academicons/obp
+    icon: http://psafe.org/favicon.ico
     summary: |
       Acknowledged for groundbreaking work on psychological safety in government.
 ---
