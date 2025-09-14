@@ -179,16 +179,6 @@ languages:
   - name: Japanese
     percent: 30
     
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://psafe.org/
-    date: '2024-04-01'
-    awarder: PSafe Project
-    summary: |
-      Acknowledged for groundbreaking work on psychological safety in government.
+
 ---
 I am a leadership and organizational psychologist with extensive experience investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific and across the United States at both the employee and supervisor levels. My goal is to translate basic understandings about human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
