@@ -1,5 +1,5 @@
 ---
-title: 'Papers'
+title: 
 cms_exclude: true
 
 # View.
