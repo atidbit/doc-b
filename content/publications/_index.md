@@ -1,6 +1,6 @@
 ---
 title: Recent Papers
-cms_exclude: true
+cms_exclude: false
 
 # View.
 view: citation
