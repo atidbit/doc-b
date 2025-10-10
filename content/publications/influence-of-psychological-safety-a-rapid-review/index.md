@@ -1,14 +1,13 @@
 ---
-title: "The Connection Between Hoʻoponopono and Psychological Safety"
+title: "The Influence of Psychological Safety on Team Dynamics, Performance, and Society: A Rapid Review"
 authors:
 - admin
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2024-02-18T00:00:00Z"
+
+date: "2023-06-18T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-02-18T00:00:00Z"
+publishDate: "2023-06-18T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,10 +18,10 @@ publication_types: ["article-journal"]
 publication: "*Psychological Safety, Advancement and Review, 2*(1)"
 publication_short: ""
 
-abstract: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams. Ho’oponopono is a cultural tradition focused on conflict resolution through collective responsibility, repentance, forgiveness, and reconciliation. Psychological safety describes a group climate characterized by interpersonal trust, inclusion, and risk-taking. At first glance, these concepts may seem unrelated. Analysis reveals notable alignments between ho’oponopono principles and psychological safety aims of mitigating fear, restoring trust, and enabling participation after setbacks. However, thoughtfulness is needed when translating communal ho’oponopono practices into contemporary organizational contexts. While ho’oponopono holds lessons for psychological safety in society, careful adaptation and more research is needed on implementation. With sensitivity, the harmony and foundation of ho’oponopono could meaningfully complement techniques for cooperation in organizations and larger societal issues.
+abstract: This rapid review provides a summary analysis of the concept of psychological safety. The aim of this paper is to highlight the evolution, impact on team dynamics, performance, and its broader societal implications. This rapid research utilizes a streamlined systematic approach to discuss the crucial role psychological safety plays in teams and society.
 
 # Summary. An optional shortened abstract.
-summary: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams.
+summary: This rapid review provides a summary analysis of the concept of psychological safety.
 
 tags:
 - psychological safety
@@ -30,9 +29,9 @@ featured: false
 
 links:
   - type: pdf
-    url: https://psafe.org/pdf/02182024
+    url: https://psafe.org/pdf/06192023
   - type: doi
-    url: https://doi.org/10.5281/zenodo.8374435
+    url: https://doi.org/10.5281/zenodo.8053648
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
