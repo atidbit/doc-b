@@ -1,5 +1,5 @@
 ---
-title: <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">Recent Papers</h3>
+title: Recent Papers
 cms_exclude: true
 
 # View.
