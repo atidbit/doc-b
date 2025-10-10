@@ -1,5 +1,5 @@
 ---
-title: 'Recent Papers'
+title: 'Papers'
 cms_exclude: true
 
 # View.
