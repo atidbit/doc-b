@@ -1,14 +1,13 @@
 ---
-title: "The Connection Between Hoʻoponopono and Psychological Safety"
+title: "Psychological Safety and the Perils of Silencing Dissent: A Rapid Review Meta-Analysis"
 authors:
 - admin
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2024-02-18T00:00:00Z"
+
+date: "2023-07-13T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-02-18T00:00:00Z"
+publishDate: "2023-07-13T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,13 +15,13 @@ publishDate: "2024-02-18T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Psychological Safety, Advancement and Review, 2*(1)"
+publication: "*Psychological Safety, Advancement and Review, 1*(1)"
 publication_short: ""
 
-abstract: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams. Ho’oponopono is a cultural tradition focused on conflict resolution through collective responsibility, repentance, forgiveness, and reconciliation. Psychological safety describes a group climate characterized by interpersonal trust, inclusion, and risk-taking. At first glance, these concepts may seem unrelated. Analysis reveals notable alignments between ho’oponopono principles and psychological safety aims of mitigating fear, restoring trust, and enabling participation after setbacks. However, thoughtfulness is needed when translating communal ho’oponopono practices into contemporary organizational contexts. While ho’oponopono holds lessons for psychological safety in society, careful adaptation and more research is needed on implementation. With sensitivity, the harmony and foundation of ho’oponopono could meaningfully complement techniques for cooperation in organizations and larger societal issues.
+abstract: The role of psychological safety in organizations is critical in fostering innovative thinking, encouraging transparent communication, and promoting employee engagement. Despite its importance, a culture of psychological safety may be jeopardized when dissenting voices are silenced. This paper provides a comprehensive examination of psychological safety and the dangers of suppressing dissent within organizations. Through a rapid review meta-analysis of key studies, this paper elucidates the concept of psychological safety, discusses the adverse impacts of discouraging dissent, and reveals the pivotal role of leadership in promoting a culture of openness and safety. Our findings underscore the importance of an organizational environment where dissent is seen as an opportunity for learning and growth rather than as a threat. Recommendations for future research are suggested to further expand the understanding of these phenomena and to explore effective interventions for creating psychologically safe workplaces. This research has important implications for organizational leaders, human resource professionals, and policy-makers seeking to foster a culture of psychological safety in their organizations.
 
 # Summary. An optional shortened abstract.
-summary: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams.
+summary: The role of psychological safety in organizations is critical in fostering innovative thinking, encouraging transparent communication, and promoting employee engagement.
 
 tags:
 - psychological safety
@@ -30,9 +29,9 @@ featured: false
 
 links:
   - type: pdf
-    url: https://psafe.org/pdf/02182024
+    url: https://psafe.org/pdf/07132023
   - type: doi
-    url: https://doi.org/10.5281/zenodo.8374435
+    url: https://doi.org/10.5281/zenodo.8140985
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
