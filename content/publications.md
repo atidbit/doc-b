@@ -15,7 +15,7 @@ sections:
       text:
       filters:
         folders:
-          - publications
+          - publication
     design:
       view: article-grid
       fill_image: false
