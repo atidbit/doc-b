@@ -16,7 +16,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Psychological Safety, Advancement and Review, 1*(1)"
-publication_short: "PSAR"
+publication_short: ""
 
 abstract: The management of disasters, whether natural phenomena like wildfires or health emergencies such as the COVID-19 pandemic, requires a well-coordinated, adaptive, and immediate response from specialized teams. However, the effectiveness of these teams doesn’t solely rest on their technical abilities or resources but is heavily influenced by the psychological atmosphere in which they operate. Psychological safety, defined as the freedom to express and act without fear of negative repercussions, has emerged as a cornerstone of high-functioning teams. This study delves into the significance of psychological safety and highlights its crucial role in fostering a conducive environment for teams to function optimally under stressful scenarios. By juxtaposing its relevance in contrasting emergencies, from the spread of a contagious virus to wildfires, and especially in geographically vulnerable regions like the Hawaiian Islands, we elucidate the broader implications and applicability of psychological safety in disaster management.
 
