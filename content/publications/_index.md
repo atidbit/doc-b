@@ -1,9 +1,9 @@
 ---
-title: Publications
+title: 
 cms_exclude: true
 
 # View.
-view: article-grid
+view: citation
 
 # Optional header image (relative to `static/media/` folder).
 banner:
