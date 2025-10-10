@@ -1,5 +1,5 @@
 ---
-title: '<h2>Papers</h2>'
+title: "<h2>Papers</h2>"
 cms_exclude: true
 
 # View.
