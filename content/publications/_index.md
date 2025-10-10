@@ -11,16 +11,5 @@ banner:
   image: ''
 
 # Page sections
-sections:
-  - block: collection
-    content:
       title: Recent Papers
-      text:
-      filters:
-        folders:
-          - publications
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
 ---
