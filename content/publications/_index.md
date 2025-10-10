@@ -1,6 +1,7 @@
 ---
 title: 'Recent Papers'
 cms_exclude: true
+type: landing
 
 # View.
 view: citation
