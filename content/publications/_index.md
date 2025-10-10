@@ -9,4 +9,19 @@ view: citation
 banner:
   caption: ''
   image: ''
+
+  design:
+  # Section spacing
+  spacing: '5rem'
+
+# Page sections
+sections:
+  - block: collection
+    content:
+      title: Recent Papers
+      text:
+      filters:
+        folders:
+          - publications
+
 ---
