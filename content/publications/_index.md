@@ -1,10 +1,9 @@
 ---
 title: 'Recent Papers'
 cms_exclude: true
-type: landing
 
 # View.
-view: citation
+view: 
 
 # Optional header image (relative to `static/media/` folder).
 banner:
