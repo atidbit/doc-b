@@ -1,8 +1,7 @@
 ---
-title: "An example journal article"
+title: "The Connection Between Hoʻoponopono and Psychological Safety"
 authors:
 - admin
-- Robert Ford
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -17,13 +16,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Psychological Safety, Advancement and Review, 2*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams. Ho’oponopono is a cultural tradition focused on conflict resolution through collective responsibility, repentance, forgiveness, and reconciliation. Psychological safety describes a group climate characterized by interpersonal trust, inclusion, and risk-taking. At first glance, these concepts may seem unrelated. Analysis reveals notable alignments between ho’oponopono principles and psychological safety aims of mitigating fear, restoring trust, and enabling participation after setbacks. However, thoughtfulness is needed when translating communal ho’oponopono practices into contemporary organizational contexts. While ho’oponopono holds lessons for psychological safety in society, careful adaptation and more research is needed on implementation. With sensitivity, the harmony and foundation of ho’oponopono could meaningfully complement techniques for cooperation in organizations and larger societal issues.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams.
 
 tags:
 - Source Themes
@@ -35,21 +34,7 @@ hugoblox:
 
 links:
   - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+    url: https://psafe.org/pdf/02182024
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
