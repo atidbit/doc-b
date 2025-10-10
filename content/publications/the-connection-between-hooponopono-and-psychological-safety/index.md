@@ -3,8 +3,7 @@ title: "The Connection Between Hoʻoponopono and Psychological Safety"
 authors:
 - admin
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
+
 date: "2024-02-18T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
