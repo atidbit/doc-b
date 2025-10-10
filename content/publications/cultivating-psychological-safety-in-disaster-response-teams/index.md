@@ -1,13 +1,13 @@
 ---
-title: "The Connection Between Hoʻoponopono and Psychological Safety"
+title: "Cultivating Psychological Safety in Disaster Response Teams: A Comparative Study of Natural Disasters and Epidemics"
 authors:
 - admin
 author_notes:
 
-date: "2024-02-18T00:00:00Z"
+date: "2023-08-18T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-02-18T00:00:00Z"
+publishDate: "2023-08-18T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -15,13 +15,13 @@ publishDate: "2024-02-18T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Psychological Safety, Advancement and Review, 2*(1)"
-publication_short: ""
+publication: "*Psychological Safety, Advancement and Review, 1*(1)"
+publication_short: "PSAR"
 
-abstract: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams. Ho’oponopono is a cultural tradition focused on conflict resolution through collective responsibility, repentance, forgiveness, and reconciliation. Psychological safety describes a group climate characterized by interpersonal trust, inclusion, and risk-taking. At first glance, these concepts may seem unrelated. Analysis reveals notable alignments between ho’oponopono principles and psychological safety aims of mitigating fear, restoring trust, and enabling participation after setbacks. However, thoughtfulness is needed when translating communal ho’oponopono practices into contemporary organizational contexts. While ho’oponopono holds lessons for psychological safety in society, careful adaptation and more research is needed on implementation. With sensitivity, the harmony and foundation of ho’oponopono could meaningfully complement techniques for cooperation in organizations and larger societal issues.
+abstract: The management of disasters, whether natural phenomena like wildfires or health emergencies such as the COVID-19 pandemic, requires a well-coordinated, adaptive, and immediate response from specialized teams. However, the effectiveness of these teams doesn’t solely rest on their technical abilities or resources but is heavily influenced by the psychological atmosphere in which they operate. Psychological safety, defined as the freedom to express and act without fear of negative repercussions, has emerged as a cornerstone of high-functioning teams. This study delves into the significance of psychological safety and highlights its crucial role in fostering a conducive environment for teams to function optimally under stressful scenarios. By juxtaposing its relevance in contrasting emergencies, from the spread of a contagious virus to wildfires, and especially in geographically vulnerable regions like the Hawaiian Islands, we elucidate the broader implications and applicability of psychological safety in disaster management.
 
 # Summary. An optional shortened abstract.
-summary: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams.
+summary: The management of disasters, whether natural phenomena like wildfires or health emergencies such as the COVID-19 pandemic, requires a well-coordinated, adaptive, and immediate response from specialized teams.
 
 tags:
 - psychological safety
@@ -29,9 +29,9 @@ featured: false
 
 links:
   - type: pdf
-    url: https://psafe.org/pdf/02182024
+    url: https://psafe.org/pdf/08182023
   - type: doi
-    url: https://doi.org/10.5281/zenodo.8374435
+    url: https://doi.org/10.5281/zenodo.8260482
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
