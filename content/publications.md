@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Paperss
+      title: Papers
       text:
       filters:
         folders:
