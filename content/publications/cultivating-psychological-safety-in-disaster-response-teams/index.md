@@ -24,7 +24,7 @@ abstract: The management of disasters, whether natural phenomena like wildfires 
 summary: The management of disasters, whether natural phenomena like wildfires or health emergencies such as the COVID-19 pandemic, requires a well-coordinated, adaptive, and immediate response from specialized teams.
 
 tags:
-- psychological safety
+- #psychological safety
 featured: false
 
 links:
