@@ -25,7 +25,8 @@ abstract: This paper explores the potential connections between the Indigenous H
 summary: This paper explores the potential connections between the Indigenous Hawaiian practice of ho’oponopono and modern constructs of psychological safety in teams.
 
 tags:
-- psafe, psychological safety
+- psafe
+- psychological safety
 featured: false
 
 links:
