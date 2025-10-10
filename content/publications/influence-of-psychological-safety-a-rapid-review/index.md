@@ -16,7 +16,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Psychological Safety, Advancement and Review, 1*(1)"
-publication_short: "h"
+publication_short: ""
 
 abstract: This rapid review provides a summary analysis of the concept of psychological safety. The aim of this paper is to highlight the evolution, impact on team dynamics, performance, and its broader societal implications. This rapid research utilizes a streamlined systematic approach to discuss the crucial role psychological safety plays in teams and society.
 
