@@ -1,5 +1,5 @@
 ---
-title: '<h3>Experience</h3>'
+title: '*Experience*'
 date: 2023-10-24
 type: landing
 
