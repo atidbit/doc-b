@@ -1,7 +1,7 @@
 ---
 title: 'Experience'
 date: 2023-10-24
-type: 
+type: site
 
 design:
   spacing: '5rem'
