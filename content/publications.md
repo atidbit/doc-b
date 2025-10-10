@@ -11,7 +11,7 @@ design:
 sections:
   - block: collection
     content:
-      title: Recent Papers
+      title: Papers
       text:
       filters:
         folders:
