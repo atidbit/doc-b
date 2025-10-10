@@ -1,7 +1,7 @@
 ---
 title: "The Connection Between Hoʻoponopono and Psychological Safety"
 authors:
-- Brown, V. S.
+- "Brown, V. S."
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
