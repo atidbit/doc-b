@@ -31,6 +31,8 @@ featured: false
 links:
   - type: pdf
     url: https://psafe.org/pdf/02182024
+  - type: doi
+    url: https://doi.org/10.5281/zenodo.8374435
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
