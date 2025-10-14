@@ -80,7 +80,7 @@ education:
       Supervised by Katherine Hyatt, Ph.D.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+      url: 'https://atidbit.io/doc-b/uploads/Brown_BUSN699_Final_Paper.pdf'
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
