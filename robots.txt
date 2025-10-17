@@ -1,0 +1,6 @@
+# Robots.txt file atidbit.io/doc-b/
+#
+# All robots will NOT spider the domain
+
+User-agent: *
+Disallow: /
