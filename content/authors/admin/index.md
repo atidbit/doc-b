@@ -182,6 +182,6 @@ languages:
 
 ---
 
-## About Med
+## About Me
 
 I am a leadership and organizational psychologist with a background of investigating organizational human behaviors critical to driving performance, including psychological safety, leadership theory, and organizational climate. I have examined these issues in government organizations within the Pacific region and across the United States at both the employee and supervisor levels. My goal is to translate a basic understanding of human behaviors in organizations and government into practical solutions for improving efficiency and organizational safety (both mentally and physically).
