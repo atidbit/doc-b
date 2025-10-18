@@ -75,3 +75,22 @@ sections:
         css_class: 'bg-primary-700'
         css_style: ''
 ---
+
+  - block: collection
+    content:
+      title: Selected Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+      count: 6
+      archive:
+        enable: true
+        text: See all journal articles
+        link: publications/
+    design:
+      view: citation
+      columns: 1
+      spacing:
+        padding: ['2rem', '0rem', '2rem', '0rem']
+
