@@ -94,3 +94,14 @@ sections:
       spacing:
         padding: ['2rem', '0rem', '2rem', '0rem']
 
+# Page sections
+sections:
+  - block: collection
+    content:
+      title: Selected Publications
+        folders:
+          - publications
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
