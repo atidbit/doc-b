@@ -31,8 +31,8 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/vbrown
-  - icon: brands/github
-    url: https://github.com/atidbit
+  # - icon: brands/github
+    # url: https://github.com/atidbit
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/vbrown/
   - icon: academicons/google-scholar
