@@ -16,7 +16,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Professor, Defense Management (DFEM)
+role: Professor, Defense Management (DEFM)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
