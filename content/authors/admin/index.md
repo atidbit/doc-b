@@ -39,7 +39,7 @@ profiles:
     url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0003-2469-6172
-  - icon: academicons/zenodo
+  - icon: academicons/zotero
     url: https://zenodo.org/communities/psafe
   - icon: academicons/conversation
     url: https://outlook.office.com/bookwithme/user/f1f62ad08c3d4eb0a1e7cb8772542dba%40mycampus.apus.edu?anonymous&ismsaljsauthenabled=true
