@@ -33,8 +33,8 @@ profiles:
     url: https://x.com/vbrown
   # - icon: brands/github
     # url: https://github.com/atidbit
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/vbrown/
+  # - icon: brands/linkedin
+    # url: https://www.linkedin.com/in/vbrown/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/orcid
