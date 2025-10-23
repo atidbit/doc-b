@@ -87,9 +87,9 @@ education:
     date_end: 2014-12-21
     summary: |
       GPA: 4.0/4.0
-
-    Minored in criminal justice and emergency management.
     
+    Minored in criminal justice and emergency management.
+
   - area: BS Business Administration
     institution: Hawaii Pacific University
     date_start: 2000-12-01
