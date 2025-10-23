@@ -78,9 +78,9 @@ education:
     summary: |
       Thesis on _Project Management Process: Theory, Concept, Technology, Management_.  
       Supervised by Katherine Hyatt, Ph.D.
-    button:
-      text: 'Read Thesis'
-      url: 'https://atidbit.io/doc-b/uploads/Brown_BUSN699_Final_Paper'
+   # button:
+    #  text: 'Read Thesis'
+    #  url: 'https://atidbit.io/doc-b/uploads/Brown_BUSN699_Final_Paper'
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
