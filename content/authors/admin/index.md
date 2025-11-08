@@ -71,7 +71,7 @@ education:
     date_end: 2023-06-14
     summary: |-2
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.  
-      Advisors: Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
+      Advisors: Liyan Jin, Ph.D., Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
     button:
       text: 'Read Dissertation'
       url: 'https://example.com/thesis.pdf'
