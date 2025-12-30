@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 publication: "*International Journal of Business and Social Science, 16*(16)"
 publication_short: ""
 
-abstract: This qualitative descriptive study aimed to investigate how federal employees in Hawaii described psychological safety and the impact of their supervisors’ influence on psychological safety at work. This study examined the phenomena of psychological safety in the workplace using transformational leadership theory and the psychosocial safety climate (PSC) theory as its theoretical underpinnings..
+abstract: This qualitative descriptive study aimed to investigate how federal employees in Hawaii described psychological safety and the impact of their supervisors’ influence on psychological safety at work. This study examined the phenomena of psychological safety in the workplace using transformational leadership theory and the psychosocial safety climate (PSC) theory as its theoretical underpinnings. In conducting this study, two research questions (RQs) were employed: 1) How do federal government employees describe psychological safety in their workplace? and 2) How do federal government employees describe their supervisors’ influence on psychological safety in their workplace? To reach a total of 46 participants for the study, the study recruited from an estimated 12,053 federal government workers who were members of the LinkedIn group for Federal Employees of the U.S. Government..
 
 # Summary. An optional shortened abstract.
 summary: This qualitative descriptive study aimed to investigate how federal employees in Hawaii described psychological safety and the impact of their supervisors’ influence on psychological safety at work.
