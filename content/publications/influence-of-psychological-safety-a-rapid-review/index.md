@@ -54,4 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-Permalink: https://psafe.org/2023/06/19/influence-of-psychological-safety-a-rapid-review/
+DOI: 10.5281/zenodo.8053648
