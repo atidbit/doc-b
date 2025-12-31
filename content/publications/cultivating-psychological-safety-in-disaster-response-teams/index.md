@@ -54,4 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-Permalink: https://psafe.org/2023/08/18/cultivating-psychological-safety-in-disaster-response-teams/
+DOI: 10.5281/zenodo.8260482
