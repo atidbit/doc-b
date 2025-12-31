@@ -10,9 +10,9 @@ main:
   - name: Papers
     url: publications/
     weight: 11
- # - name: Projects
- #   url: projects/
- #   weight: 15
+  - name: Projects
+    url: myprojects/
+    weight: 15
   - name: Experience
     url: experience/
     weight: 20
