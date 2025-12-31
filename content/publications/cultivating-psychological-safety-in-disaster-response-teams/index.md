@@ -54,4 +54,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-(https://docs.hugoblox.com/content/writing-markdown-latex/)
+
+#
