@@ -54,3 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+DOI: 10.30845/ijbss.v16p16
