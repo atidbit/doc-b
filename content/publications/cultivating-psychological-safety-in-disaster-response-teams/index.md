@@ -54,4 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-# (https://docs.hugoblox.com/content/writing-markdown-latex/).
+Permalink: https://psafe.org/2023/08/18/cultivating-psychological-safety-in-disaster-response-teams/
