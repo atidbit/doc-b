@@ -1,9 +1,9 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: PSafe Project
+date: 2023-06-01
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
+    url: https://psafe.org
 tags:
   - Hugo
   - HugoBlox
