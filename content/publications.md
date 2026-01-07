@@ -20,5 +20,5 @@ sections:
       view: article-grid
       fill_image: false
       columns: 2
-      count: 10
+      count: 3
 ---
