@@ -13,6 +13,7 @@ sections:
     content:
       title: Papers
       text:
+      count: 6
       filters:
         folders:
           - publications
@@ -20,5 +21,4 @@ sections:
       view: article-grid
       fill_image: false
       columns: 2
-      count: 3
 ---
