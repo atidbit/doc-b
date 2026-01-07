@@ -21,7 +21,7 @@ publication_short: ""
 abstract: "This qualitative descriptive study protocol explores how federal government employees in Hawaii describe psychological safety and their supervisors’ influence on it within the workplace. The protocol and associated instruments were developed to guide data collection, ensure methodological transparency, and support replication. The instrument includes a demographic questionnaire, open-ended written questionnaire, and semi-structured interview questions designed to elicit rich, descriptive data related to workplace psychological safety, supervisor influence, and employee engagement."
 
 # Summary. An optional shortened abstract.
-summary: his qualitative descriptive study protocol explores how federal government employees in Hawaii describe psychological safety and their supervisors’ influence on it within the workplace. The protocol and associated instruments were developed to guide data collection, ensure methodological transparency, and support replication.
+summary: This qualitative descriptive study protocol explores how federal government employees in Hawaii describe psychological safety and their supervisors’ influence on it within the workplace. The protocol and associated instruments were developed to guide data collection, ensure methodological transparency, and support replication.
 
 tags:
 - psychological safety
