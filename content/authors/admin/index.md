@@ -62,9 +62,9 @@ education:
     summary: |-2
       Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_.  
       Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
-    button:
-      text: 'Read Dissertation'
-      url: 'https://example.com/thesis.pdf'
+   # button:
+    #   text: 'Read Dissertation'
+    #   url: 'https://example.com/thesis.pdf'
   - area: Ed.D. in Organizational Leadership & Development
     institution: Grand Canyon University
     date_start: 2018-05-10
