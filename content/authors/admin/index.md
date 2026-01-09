@@ -62,9 +62,9 @@ education:
     summary: |-2
       Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_.  
       Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
-   # button:
-    #   text: 'Read Dissertation'
-    #   url: 'https://example.com/thesis.pdf'
+   #button:
+    # text: 'Read Dissertation'
+    # url: 'https://example.com/thesis.pdf'
   - area: Ed.D. in Organizational Leadership & Development
     institution: Grand Canyon University
     date_start: 2018-05-10
@@ -72,9 +72,9 @@ education:
     summary: |-2
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.  
       Advisors: Liyan Jin, Ph.D., Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
-    button:
-      text: 'Read Dissertation'
-      url: 'https://example.com/thesis.pdf'
+   #button:
+    # text: 'Read Dissertation'
+    # url: 'https://example.com/thesis.pdf'
   - area: MBA (Information Technology Management)
     institution: American Military University
     date_start: 2009-05-16
@@ -82,9 +82,9 @@ education:
     summary: |
       Thesis on _Project Management Process: Theory, Concept, Technology, Management_.  
       Supervised by Katherine Hyatt, Ph.D.
-   # button:
-    #  text: 'Read Thesis'
-    #  url: 'https://atidbit.io/doc-b/uploads/Brown_BUSN699_Final_Paper'
+   #button:
+    # text: 'Read Thesis'
+    # url: 'https://atidbit.io/doc-b/uploads/Brown_BUSN699_Final_Paper'
   - area: BS Homeland Security
     institution: Thomas Edison State University
     date_start: 2014-01-06
