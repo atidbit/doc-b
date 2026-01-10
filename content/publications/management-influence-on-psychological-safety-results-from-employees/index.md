@@ -29,7 +29,7 @@ featured: false
 
 links:
   - type: pdf
-    url: https://atidbit.io/files/16.pdf
+    url: https://ijbss.thebrpi.org/journals/Vol_16_2025/16.pdf
   - type: doi
     url: https://doi.org/10.30845/ijbss.v16p16
 
