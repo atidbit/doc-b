@@ -111,7 +111,7 @@ work:
     date_start: 2025-02-24
     date_end: ''
     summary: |
-      Teaching government acquisitions, contracting, and defense management topics.
+      Teaching business, government acquisitions, contracting, and defense management topics.
   - position: Doctoral Research (Quantitative)
     company_name: Columbia International University
     company_url: 'https://ciu.edu'
@@ -122,7 +122,7 @@ work:
       Research on transformational leadership behaviors and their impact on psychological safety in U.S. Federal government organizations.
   - position: Dissertation Advisor/Content Expert
     company_name: Grand Canyon University
-    company_url: 'https://gcu.edu/'
+    company_url: 'https://gcu.edu'
     company_logo: ''
     date_start: 2023-06-14
     date_end: ''
@@ -138,7 +138,7 @@ work:
       Research on the perception of psychological safety and supervisor influence on psychological safety in U.S. Federal government organizations in Hawaii.
   - position: U.S. Navy Research Assistant
     company_name: Naval Postgraduate School
-    company_url: 'https://nps.edu/'
+    company_url: 'https://nps.edu'
     company_logo: ''
     date_start: 2020-06-01
     date_end: ''
