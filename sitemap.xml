@@ -49,12 +49,4 @@
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
- {% for post in publications.posts %}
-<url>
-<loc>https://atidbit.io/doc-b/content/{{ publications.url }}</loc>
-<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
- {% endfor %}
 </urlset>
