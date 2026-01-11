@@ -36,7 +36,7 @@ profiles:
   # - icon: brands/linkedin
     # url: https://www.linkedin.com/in/vbrown/
   - icon: academicons/academia
-    url: https://apus.academia.edu/VBrown
+    url: https://apus.academia.edu/vbrown
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/orcid
