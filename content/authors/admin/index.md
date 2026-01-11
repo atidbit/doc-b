@@ -35,6 +35,8 @@ profiles:
     # url: https://github.com/atidbit
   # - icon: brands/linkedin
     # url: https://www.linkedin.com/in/vbrown/
+  - icon: academicons/academia
+    url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/orcid
@@ -43,6 +45,8 @@ profiles:
     url: https://zenodo.org/communities/psafe
   - icon: academicons/hypothesis
     url: https://hcommons.org/members/vbrown/
+  - icon: academicons/researchgate
+    url: https://scholar.google.com/citations?user=L6HtnvkAAAAJ
   - icon: academicons/conversation
     url: https://outlook.office.com/bookwithme/user/f1f62ad08c3d4eb0a1e7cb8772542dba%40mycampus.apus.edu?anonymous&ismsaljsauthenabled=true
 
