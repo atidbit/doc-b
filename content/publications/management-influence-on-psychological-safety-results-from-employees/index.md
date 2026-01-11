@@ -32,6 +32,8 @@ links:
     url: https://ijbss.thebrpi.org/journals/Vol_16_2025/16.pdf
   - type: doi
     url: https://doi.org/10.30845/ijbss.v16p16
+  - type: cite
+    url: https://atidbit.io/doc-b/publications/management-influence-on-psychological-safety-results-from-employees/cite.bib
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
