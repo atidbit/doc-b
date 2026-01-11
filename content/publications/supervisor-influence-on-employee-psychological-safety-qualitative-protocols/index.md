@@ -15,7 +15,7 @@ publishDate: "2023-05-31T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Zenodo, 1*(1)"
+publication: "*Zenodo*"
 publication_short: ""
 
 abstract: "This qualitative descriptive study protocol explores how federal government employees in Hawaii describe psychological safety and their supervisors’ influence on it within the workplace. The protocol and associated instruments were developed to guide data collection, ensure methodological transparency, and support replication. The instrument includes a demographic questionnaire, open-ended written questionnaire, and semi-structured interview questions designed to elicit rich, descriptive data related to workplace psychological safety, supervisor influence, and employee engagement."
