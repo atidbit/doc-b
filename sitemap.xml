@@ -49,4 +49,34 @@
 <changefreq>always</changefreq>
 <priority>0.5</priority>
 </url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/influence-of-psychological-safety-a-rapid-review/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/psychological-safety-and-the-perils-of-silencing-dissent-a-rapid-review-meta-analysis/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/cultivating-psychological-safety-in-disaster-response-teams/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/the-connection-between-hooponopono-and-psychological-safety/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/management-influence-on-psychological-safety-results-from-employees/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
 </urlset>
