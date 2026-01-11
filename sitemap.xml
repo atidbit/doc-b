@@ -1,0 +1,64 @@
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://atidbit.io/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/tags/psychological-safety/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/myprojects/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/experience/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/files/BrownVS_CIU_DIS_PhD-2025.pdf</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/supervisor-influence-on-employee-psychological-safety-qualitative-protocols/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+ {% for post in publications.posts %}
+<url>
+<loc>https://atidbit.io/doc-b/{{ publications.url }}</loc>
+<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+ {% endfor %}
+</urlset>
