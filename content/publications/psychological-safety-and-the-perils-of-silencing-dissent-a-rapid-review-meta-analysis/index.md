@@ -15,7 +15,7 @@ publishDate: "2023-07-13T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Psychological Safety, Advancement and Review, 1*(1)"
+publication: "*Psychological Safety, Advancement and Review*"
 publication_short: ""
 
 abstract: The role of psychological safety in organizations is critical in fostering innovative thinking, encouraging transparent communication, and promoting employee engagement. Despite its importance, a culture of psychological safety may be jeopardized when dissenting voices are silenced. This paper provides a comprehensive examination of psychological safety and the dangers of suppressing dissent within organizations. Through a rapid review meta-analysis of key studies, this paper elucidates the concept of psychological safety, discusses the adverse impacts of discouraging dissent, and reveals the pivotal role of leadership in promoting a culture of openness and safety. Our findings underscore the importance of an organizational environment where dissent is seen as an opportunity for learning and growth rather than as a threat. Recommendations for future research are suggested to further expand the understanding of these phenomena and to explore effective interventions for creating psychologically safe workplaces. This research has important implications for organizational leaders, human resource professionals, and policy-makers seeking to foster a culture of psychological safety in their organizations.
