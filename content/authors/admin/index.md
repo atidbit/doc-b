@@ -63,8 +63,8 @@ education:
       Dissertation: _The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians_.  
       Advisors: Phillip Gwaltney, Ph.D., Wesley L. Scott, Ed.D., Ph.D., James Buchanan, Ed.D.
    #button:
-    # text: 'Read Dissertation'
-    # url: 'https://example.com/thesis.pdf'
+     text: 'Read Dissertation'
+     url: 'https://example.com/thesis.pdf](https://atidbit.io/files/BrownVS_CIU_DIS_PhD-2025.pdf'
   - area: Ed.D. in Organizational Leadership & Development
     institution: Grand Canyon University
     date_start: 2018-05-10
@@ -73,8 +73,8 @@ education:
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.  
       Advisors: Liyan Jin, Ph.D., Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
    #button:
-    # text: 'Read Dissertation'
-    # url: 'https://example.com/thesis.pdf'
+     text: 'Read Dissertation'
+     url: 'https://example.com/thesis.pdf](https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
   - area: MBA (Information Technology Management)
     institution: American Military University
     date_start: 2009-05-16
