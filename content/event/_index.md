@@ -1,10 +1,9 @@
+sitemap:
+ disable: true
 ---
 title: Recent & Upcoming Talks
 cms_exclude: true
 #url: talk
-
-[sitemap]
-disable = true
 
 # View
 view: card
