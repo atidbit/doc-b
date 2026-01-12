@@ -1,8 +1,3 @@
-sitemap:
- changeFreq: ''
- disable: true
- filename: sitemap.xml
- priority: -1
 ---
 title: Recent & Upcoming Talks
 cms_exclude: true
