@@ -54,4 +54,4 @@ markup:
 security:
   _merge: deep
 sitemap:
-  disable: true
+  _merge: deep
