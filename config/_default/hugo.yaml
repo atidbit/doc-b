@@ -56,4 +56,4 @@ security:
 sitemap:
   _merge: deep
 disableKinds:
-  - sitemap
+  ##- sitemap
