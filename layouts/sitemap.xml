@@ -1,18 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {{ range .Site.RegularPages }}
-    {{ if not .Params.sitemap.disable }}
-      <url>
-        <loc>{{ .Permalink }}</loc>
-        {{ with .Lastmod.Format "2006-01-02T15:04:05-07:00" }}
-          <lastmod>{{ . }}</lastmod>
-        {{ end }}
-        <changefreq>{{ cond (gt .Page.Date.Unix now.Unix) "monthly" (.Sitemap.ChangeFreq | default "weekly") }}</changefreq>
-        <priority>{{ .Sitemap.Priority | default 0.5 }}</priority>
-      </url>
-    {{ end }}
-  {{ end }}
+  <!-- Homepage - highest priority -->
+  <url>
+    <loc>https://atidbit.io/doc-b/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Key sections -->
+  <url>
+    <loc>https://atidbit.io/doc-b/publications/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Recent publication example -->
+  <url>
+    <loc>https://atidbit.io/doc-b/publications/management-influence-on-psychological-safety-results-from-employees/</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Other important ones (add more as needed; remove old/irrelevant) -->
+  <url>
+    <loc>https://atidbit.io/doc-b/myprojects/</loc>
+    <lastmod>2024-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atidbit.io/doc-b/post/get-started/</loc>
+    <lastmod>2023-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Add your other publications/posts/projects here similarly -->
+  <!-- For very old pages (2003-2005), consider omitting them unless still relevant -->
+
+  <!-- Remove or fix the example event if not needed -->
+  <!-- <url><loc>https://atidbit.io/doc-b/event/example/</loc><lastmod>2026-01-15</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url> -->
 
 </urlset>
