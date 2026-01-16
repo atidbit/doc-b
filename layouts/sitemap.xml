@@ -1,49 +1,88 @@
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage - highest priority -->
-  <url>
-    <loc>https://atidbit.io/doc-b/</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Key sections -->
-  <url>
-    <loc>https://atidbit.io/doc-b/publications/</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Recent publication example -->
-  <url>
-    <loc>https://atidbit.io/doc-b/publications/management-influence-on-psychological-safety-results-from-employees/</loc>
-    <lastmod>2025-12-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Other important ones (add more as needed; remove old/irrelevant) -->
-  <url>
-    <loc>https://atidbit.io/doc-b/myprojects/</loc>
-    <lastmod>2024-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://atidbit.io/doc-b/post/get-started/</loc>
-    <lastmod>2023-10-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Add your other publications/posts/projects here similarly -->
-  <!-- For very old pages (2003-2005), consider omitting them unless still relevant -->
-
-  <!-- Remove or fix the example event if not needed -->
-  <!-- <url><loc>https://atidbit.io/doc-b/event/example/</loc><lastmod>2026-01-15</lastmod><changefreq>yearly</changefreq><priority>0.5</priority></url> -->
-
+---
+---
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://atidbit.io/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/tags/psychological-safety/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/myprojects/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/experience/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/files/BrownVS_CIU_DIS_PhD-2025.pdf</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/supervisor-influence-on-employee-psychological-safety-qualitative-protocols/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/influence-of-psychological-safety-a-rapid-review/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/psychological-safety-and-the-perils-of-silencing-dissent-a-rapid-review-meta-analysis/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/cultivating-psychological-safety-in-disaster-response-teams/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/the-connection-between-hooponopono-and-psychological-safety/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://atidbit.io/doc-b/publications/management-influence-on-psychological-safety-results-from-employees/</loc>
+<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+<changefreq>always</changefreq>
+<priority>0.5</priority>
+</url>
 </urlset>
