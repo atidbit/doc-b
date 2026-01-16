@@ -76,14 +76,14 @@
   <url>
     <loc>https://atidbit.io/files/BrownVS_CIU_DIS_PhD-2025.pdf</loc>
     <lastmod>2025-09-30</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
     <url>
     <loc>https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf</loc>
     <lastmod>2023-05-31</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Add your other publications/posts/projects here similarly -->
