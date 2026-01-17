@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Influence of Psychological Safety on Team Dynamics, Performance, and Society: A Rapid Review'
+title: 'The Relationship Between Supervisors’ Transformational Leadership Behaviors & Employees’ Psychological Safety Climate Among U.S. Department of the Navy Civilians'
 meta1: '<meta name="citation_title" content="The Influence of Psychological Safety on Team Dynamics, Performance, and Society: A Rapid Review">'
 meta2: '<meta name="citation_author" content="Brown, Vernon S.">'
 meta3: '<meta name="citation_publication_date" content="2023/06/19">'
@@ -12,7 +12,6 @@ meta8: '<meta name="citation_lastpage" content="2">'
 meta9: '<meta name="citation_pdf_url" content="https://psafe.org/pdf/Influence_of_Psychological_Safety_A_Rapid_Review.pdf">'
 ---
 
-{{ page.title }}
 ================
 <!-- Add PDF Button Start -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
