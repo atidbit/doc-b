@@ -79,8 +79,8 @@ education:
     #button:
      #text: 'Read Dissertation'
      #url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
-    <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf" target="_blank" rel="noopener">Read Dissertation</a>
-    <a class="btn btn-outline-primary btn-page-header btn-sm" href="YOUR_NEW_URL_HERE" target="_blank" rel="noopener">YOUR_NEW_BUTTON_TEXT_HERE</a>
+    {{<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf" target="_blank" rel="noopener">}}Read Dissertation{{</a>}}
+    {{a class="btn btn-outline-primary btn-page-header btn-sm" href="YOUR_NEW_URL_HERE" target="_blank" rel="noopener">}}YOUR_NEW_BUTTON_TEXT_HERE{{</a>}}
   - area: MBA (Information Technology Management)
     institution: American Military University
     date_start: 2009-05-16
