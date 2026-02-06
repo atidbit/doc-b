@@ -79,9 +79,8 @@ education:
     button:
      text: 'Read Dissertation'
      url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
-  - area:
-     text: 'Read Dissertation'
-     url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
+  - icon: academicons/zotero
+    url: https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf
   - area: MBA (Information Technology Management)
     institution: American Military University
     date_start: 2009-05-16
