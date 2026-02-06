@@ -77,7 +77,7 @@ education:
       Dissertation: _Supervisor Influence on Psychological Safety in U.S. Federal Government Organizations: A Qualitative Descriptive Study_.  
       Advisors: Liyan Jin, Ph.D., Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
     button:
-     text: 'Read  Dissertation'
+     text: 'Read-Dissertation'
      url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
   - area: MBA (Information Technology Management)
     institution: American Military University
