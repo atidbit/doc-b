@@ -79,7 +79,7 @@ education:
     button:
      text: 'Read Dissertation'
      url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
-    button:
+    button2:
      text: 'Audio'
      url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
   - area: MBA (Information Technology Management)
