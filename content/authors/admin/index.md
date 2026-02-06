@@ -78,7 +78,8 @@ education:
       Advisors: Liyan Jin, Ph.D., Carita Harrell, Ed.D., Holli Eskelinen, Ph.D., Scena Webb, DM
     button:
      text: 'Read Dissertation'
-     url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
+     url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf' |
+     text: 'Read Dissertation'
      url: 'https://atidbit.io/files/BrownVS_GCU_DIS_EdD-2023.pdf'
   - area: MBA (Information Technology Management)
     institution: American Military University
