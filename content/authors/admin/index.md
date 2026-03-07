@@ -59,6 +59,7 @@ interests:
   - Leadership Theory
   - Government Acquisitions
   - Government Contracting
+  - Military Studies
   - Methodology (Qual + Quant)
 
 education:
