@@ -16,12 +16,15 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Professor, Defense Management (DEFM)
+# role: Professor, Defense Management (DEFM)
+role: Professor, Applied Behavioral Sciences (ABS)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: American Public University System
-    url: https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
+# - name: American Public University System
+#   url: https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
+  - name: The University of Arizona
+    url: https://www.uagc.edu/college-of-professional-advancement
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
