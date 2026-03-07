@@ -108,6 +108,14 @@ education:
       Minored in information systems, computer science and mathematics.
 
 work:
+  - position: Adjunct Professor, Applied Behavioral Sciences (ABS)
+    company_name: The University of Arizona (Global Campus)
+    company_url: 'https://www.uagc.edu/'
+    company_logo: ''
+    date_start: 2026-04-13
+    date_end: ''
+    summary: |
+      Teaching psychological assessment, leadership, ethics, behavioral science, and topics in the social sciences.
   - position: Adjunct Professor, Defense Management (DEFM)
     company_name: American Public University System
     company_url: 'https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/'
