@@ -108,7 +108,7 @@ education:
       Minored in information systems, computer science and mathematics.
 
 work:
-  - position: Professor, Defense Management (DEFM)
+  - position: Adjunct Professor, Defense Management (DEFM)
     company_name: American Public University System
     company_url: 'https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/'
     company_logo: ''
