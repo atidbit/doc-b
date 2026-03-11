@@ -54,3 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+<sub>DOI: 10.5281/zenodo.18858978</sub>
