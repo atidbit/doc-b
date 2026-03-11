@@ -31,7 +31,7 @@ links:
   - type: pdf
     url: https://zenodo.org/records/18150363/files/Brown.V_protocols_PS_QUAL.pdf
   - type: doi
-    url: https://zenodo.org/records/18150363
+    url: https://doi.org/10.5281/zenodo.18150363
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
