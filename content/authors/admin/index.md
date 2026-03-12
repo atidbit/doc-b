@@ -51,7 +51,8 @@ profiles:
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/V-Brown
   - icon: academicons/conversation
-    url: https://outlook.office.com/bookwithme/user/f1f62ad08c3d4eb0a1e7cb8772542dba%40mycampus.apus.edu?anonymous&ismsaljsauthenabled=true
+    url: https://cal.com/doc-b
+    # url: https://outlook.office.com/bookwithme/user/f1f62ad08c3d4eb0a1e7cb8772542dba%40mycampus.apus.edu?anonymous&ismsaljsauthenabled=true
 
 interests:
   - Psychological Safety
