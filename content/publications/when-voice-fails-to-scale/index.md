@@ -29,9 +29,9 @@ featured: false
 
 links:
   - type: pdf
-    url: https://zenodo.org/records/18858978/files/When_Voice_Fails_to_Scale.pdf
+    url: https://papers.ssrn.com/sol3/Delivery.cfm/6340618.pdf?abstractid=6340618&mirid=1
   - type: doi
-    url: https://doi.org/10.5281/zenodo.18858978
+    url: https://dx.doi.org/10.2139/ssrn.6340618
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -54,4 +54,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-<sub>DOI: 10.5281/zenodo.18858978</sub>
+<sub>DOI: 10.2139/ssrn.6340618</sub>
