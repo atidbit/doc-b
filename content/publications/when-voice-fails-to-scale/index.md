@@ -29,7 +29,7 @@ featured: false
 
 links:
   - type: pdf
-    url: https://papers.ssrn.com/sol3/Delivery.cfm/6340618.pdf?abstractid=6340618&mirid=1
+    url: https://papers.ssrn.com/sol3/Delivery.cfm/6340618.pdf?abstractid=6340618&mirid=1&type=2
   - type: doi
     url: https://dx.doi.org/10.2139/ssrn.6340618
 
