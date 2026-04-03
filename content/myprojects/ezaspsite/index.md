@@ -3,7 +3,7 @@ title: EzASPSite
 date: 2003-05-01
 links:
   - type: site
-    url: http://www.ezaspsite.com
+    url: https://web.archive.org/web/http://www.ezaspsite.com/
 tags:
   - EzASPSite
   - Active Server Pages
