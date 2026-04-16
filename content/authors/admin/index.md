@@ -23,7 +23,7 @@ role: Professor, Applied Behavioral Sciences (ABS)
 organizations:
 # - name: American Public University System
 #   url: https://www.apu.apus.edu/online-colleges-and-schools/school-of-business/
-  - name: The University of Arizona
+  - name: The University of Arizona (Global Campus)
     url: https://www.uagc.edu/college-of-professional-advancement
 
 # Social network links
