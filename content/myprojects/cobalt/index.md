@@ -1,6 +1,6 @@
 ---
 title: Co-BALT
-date: 2026-09-06
+date: 2025-02-12
 links:
   - type: site
     url: https://atidbit.io/files/COBALT/
