@@ -3,7 +3,7 @@ title: 808Talk
 date: 2005-05-01
 links:
   - type: site
-    url: https://www.podcasts.com/search/podcasts?query=808talk
+    url: https://podcasts.com/search/podcasts?query=808talk
 tags:
   - 808Talk
   - Hawaii
