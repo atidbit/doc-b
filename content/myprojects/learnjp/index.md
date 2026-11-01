@@ -8,9 +8,6 @@ tags:
   - Japanese
   - Japanese Practice Hub
   - Learn Japanese
-  - JP
-  - JPN
-  - JPH
   - Japan
   - Japanese Language
   - Kana
