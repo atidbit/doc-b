@@ -1,22 +1,35 @@
 /*
-  Center the Experience / Education timeline on the same column Papers
-  and Projects already use.
+  Center the Experience / Education timeline.
 
   The theme wrapper is mx-auto, but it widens with the viewport
   (max-w-3xl → md:max-w-4xl → lg:max-w-5xl → xl:max-w-6xl → 2xl:max-w-7xl).
   From the xl breakpoint that column is nearly full-bleed, so the timeline
-  reads as left-anchored with an empty right side. Hold it at
-  max-w-screen-lg (64rem) — the Papers/Projects grid width, and wider than
-  the reverted 65ch prose cap — with automatic side margins.
+  reads as left-anchored with an empty right side.
 
-  The cap starts at 768px (Tailwind md) so the same column applies from
-  tablet and phone-landscape widths, not only from 1024px up.
+  Two widths, both with automatic side margins:
+
+  - 768px up to just under 1024px (tablet and phone landscape, including
+    ~844px): 42rem (672px). The previous 64rem cap is wider than an 844px
+    landscape phone, so margin: auto had no leftover space and the column
+    still sat against the left edge. 42rem is narrower than that viewport,
+    so both gutters appear.
+  - 1024px and up: 64rem (Tailwind max-w-screen-lg), the Papers/Projects
+    grid width, and wider than the reverted 65ch prose cap.
+
   Delete this file to restore the theme widths exactly.
   Below 768px the theme's own caps still apply, so portrait-phone
   layouts are unchanged.
 */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .blox-resume-experience > .max-w-3xl {
+    max-width: 42rem; /* 672px; narrower than an ~844px phone landscape */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
   .blox-resume-experience > .max-w-3xl {
     max-width: 64rem; /* Tailwind max-w-screen-lg */
     margin-left: auto;
