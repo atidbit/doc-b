@@ -8,31 +8,66 @@
 
   Two widths, both with automatic side margins:
 
-  - 768px up to just under 1024px (tablet and phone landscape, including
-    ~844px): 42rem (672px). The previous 64rem cap is wider than an 844px
-    landscape phone, so margin: auto had no leftover space and the column
-    still sat against the left edge. 42rem is narrower than that viewport,
-    so both gutters appear.
-  - 1024px and up: 64rem (Tailwind max-w-screen-lg), the Papers/Projects
+  - Tailwind md up to just under lg (48rem, phone landscape and tablet,
+    including ~844–852px): 42rem. A 64rem cap is wider than that viewport,
+    so margin: auto never opens gutters.
+  - Tailwind lg and up (64rem): 64rem (max-w-screen-lg), the Papers/Projects
     grid width, and wider than the reverted 65ch prose cap.
 
-  Delete this file to restore the theme widths exactly.
-  Below 768px the theme's own caps still apply, so portrait-phone
-  layouts are unchanged.
+  Why #7 was not enough on a real iPhone
+  ---------------------------------------
+  The previous rules used px media queries (768px–1023.98px) and set
+  max-width / margin without !important. Tailwind v4 emits md:max-w-4xl
+  (56rem) and the wider caps inside @layer utilities. Chromium lets the
+  later unlayered rule win, so DevTools at 844px computed 42rem and
+  86px/86px gutters. WebKit on the phone still used the layered utility.
+  56rem is wider than an ~852px landscape viewport, the cap never bit,
+  and the timeline stayed full-width and left-aligned (sm:px-0 had also
+  removed the side padding).
+
+  These rules use the same rem breakpoints as Tailwind (md = 48rem,
+  lg = 64rem) and !important on max-width, width, and the auto margins
+  so the cap wins in either engine. The lg block comes second and
+  replaces the 42rem cap, so desktop stays 64rem. No fractional px query.
+
+  The inner wrapper is px-6 sm:px-0, so landscape already has no side
+  padding. The md band restores 1rem. The lg block sets that padding
+  back to 0, which is what sm:px-0 already does on desktop.
+
+  Portrait widths below 48rem are untouched.
+
+  Delete this file, or revert these rules, to restore the theme widths.
 */
 
-@media (min-width: 768px) and (max-width: 1023.98px) {
+@media (min-width: 48rem) {
   .blox-resume-experience > .max-w-3xl {
-    max-width: 42rem; /* 672px; narrower than an ~844px phone landscape */
-    margin-left: auto;
-    margin-right: auto;
+    width: 100% !important;
+    max-width: 42rem !important; /* narrower than phone landscape; 672px at a 16px root */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-inline: auto !important;
+  }
+
+  /* sm:px-0 has zeroed the wrapper; keep a small inset inside the column. */
+  .blox-resume-experience > .max-w-3xl > .w-full {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-inline: 1rem !important;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   .blox-resume-experience > .max-w-3xl {
-    max-width: 64rem; /* Tailwind max-w-screen-lg */
-    margin-left: auto;
-    margin-right: auto;
+    width: 100% !important;
+    max-width: 64rem !important; /* Tailwind max-w-screen-lg */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-inline: auto !important;
+  }
+
+  .blox-resume-experience > .max-w-3xl > .w-full {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-inline: 0 !important;
   }
 }
