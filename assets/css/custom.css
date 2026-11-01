@@ -71,3 +71,56 @@
     padding-inline: 0 !important;
   }
 }
+
+/*
+  Center single pages (project write-ups, paper pages) when the TOC is empty.
+
+  The theme row is `.page-body > .mx-auto.flex.max-w-screen-xl`:
+  `aside.hb-sidebar-container` + `nav.hb-toc` + `article > main.max-w-6xl`.
+  The aside's links are `lg:hidden`, so from 1024px up it is only a 16rem
+  spacer meant to balance the TOC. That `display:flex` rule is declared
+  after `lg:hidden`, so the spacer stays in the flow from 1024px. The TOC
+  itself is `hidden` until `xl` (1280px) and is still `w-64` when it has
+  no links. Between 1024px and 1279px the spacer alone shifts the article
+  right and the tag row spills off the viewport. At 1280px both empty
+  slots squeeze the article into the middle.
+
+  When `nav.hb-toc` has no links, drop both slots and cap `main` at
+  52.5rem: the lg:prose-xl line length (~46.5rem) plus the theme's
+  md:px-12 (3rem each side). The paragraph then fills the column, so the
+  left and right page gutters match. A wider cap (64rem or max-w-6xl)
+  leaves that prose left-aligned inside an empty right side.
+  Tag links wrap inside the column so they cannot reopen a horizontal
+  scrollbar.
+
+  A page whose TOC actually contains links keeps the theme's spacer and
+  TOC untouched. Papers/Projects collection grids and the Experience
+  timeline do not use this row, so they are unchanged.
+
+  To remove only this fix, delete this comment and the @media block
+  below it. Leave the Experience rules above in place.
+*/
+
+@media (min-width: 1024px) {
+  .page-body > .mx-auto.flex > aside.hb-sidebar-container:not(:has(+ nav.hb-toc a)),
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) {
+    display: none;
+  }
+
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article > main {
+    width: 100%;
+    max-width: 52.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article .max-w-prose > .flex:has(> a[href*="/tags/"]) {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+}
