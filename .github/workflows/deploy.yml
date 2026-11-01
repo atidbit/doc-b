@@ -86,12 +86,19 @@ jobs:
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      - name: Generate Pagefind search index (if applicable)
+      - name: Generate Pagefind search index
         run: |
-          # Check if site uses Pagefind search
-          if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-            pnpm dlx pagefind --source "public" || npx pagefind --source "public"
-          fi
+          # Hugo Blox search loads <baseURL>pagefind/pagefind.js and
+          # pagefind-entry.json. Always index the Hugo output and fail the
+          # deploy if that bundle is missing.
+          #
+          # Do not gate this on `grep pagefind package.json`. That check
+          # no-oped on GitHub Pages whenever the manifest only listed Tailwind,
+          # so the search UI shipped without an index. Pagefind is a dependency
+          # and `pnpm run pagefind` is the same command Netlify uses.
+          pnpm run pagefind
+          test -s public/pagefind/pagefind-entry.json
+          test -s public/pagefind/pagefind.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
