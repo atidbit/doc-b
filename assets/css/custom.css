@@ -1,0 +1,9 @@
+/*
+  Experience timeline wrapper grows with the viewport
+  (max-w-3xl → 2xl:max-w-7xl). Bio, Papers titles, and the Skills and
+  Languages blocks on the Experience page already use max-w-prose (65ch).
+  Cap only this wrapper. Timeline markup and copy are unchanged.
+*/
+.blox-resume-experience > .max-w-3xl {
+  max-width: 65ch;
+}
