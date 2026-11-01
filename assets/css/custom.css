@@ -1,0 +1,23 @@
+/*
+  Center the Experience / Education timeline on the same column Papers
+  and Projects already use.
+
+  The theme wrapper is mx-auto, but it widens with the viewport
+  (max-w-3xl → md:max-w-4xl → lg:max-w-5xl → xl:max-w-6xl → 2xl:max-w-7xl).
+  From the xl breakpoint that column is nearly full-bleed, so the timeline
+  reads as left-anchored with an empty right side. Hold it at
+  max-w-screen-lg (64rem) — the Papers/Projects grid width, and wider than
+  the reverted 65ch prose cap — with automatic side margins.
+
+  Delete this file to restore the theme widths exactly.
+  Below 1024px the theme's own caps still apply, so phone and tablet
+  layouts are unchanged.
+*/
+
+@media (min-width: 1024px) {
+  .blox-resume-experience > .max-w-3xl {
+    max-width: 64rem; /* Tailwind max-w-screen-lg */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
