@@ -1,65 +1,71 @@
 /*
   Center the Experience / Education timeline.
 
-  The theme wrapper is mx-auto, but it widens with the viewport
-  (max-w-3xl → md:max-w-4xl → lg:max-w-5xl → xl:max-w-6xl → 2xl:max-w-7xl).
-  From the xl breakpoint that column is nearly full-bleed, so the timeline
-  reads as left-anchored with an empty right side.
+  Root cause (measured on the live #8 CSS, custom.min.1c0e770e)
+  -----------------------------------------------------------
+  #8's rule does win. At a 844px viewport Chromium computes the column
+  as 672px (42rem) with equal 86px margins. It still looks left-heavy
+  because the timeline is left-aligned and the wrapped lines do not
+  reach the right edge of that box. Ink on that screenshot sits about
+  102px from the left and about 185px from the right. 42rem is 80% of
+  an 844px phone, so the ragged-right gap is larger than the gutter and
+  the column reads as full-bleed. The same thing happens on desktop:
+  the 64rem cap wins (1024px, ~120px margins at 1280) but short lines
+  leave a wider empty right (~110px vs ~160px, plus the scrollbar).
 
-  Two widths, both with automatic side margins:
+  These rules stop fighting the theme max-width utilities.
 
-  - Tailwind md up to just under lg (48rem, phone landscape and tablet,
-    including ~844–852px): 42rem. A 64rem cap is wider than that viewport,
-    so margin: auto never opens gutters.
-  - Tailwind lg and up (64rem): 64rem (max-w-screen-lg), the Papers/Projects
-    grid width, and wider than the reverted 65ch prose cap.
+  Phone landscape and tablet (768px–1023.98px)
+    The section's inline padding is `5rem 0`. Horizontal padding here
+    uses !important, which beats that inline style, and it is in px so
+    a larger iOS text size cannot push the column back out to full
+    bleed. The content box is locked to 576px (Tailwind max-w-xl).
+    The child is width 100% / max-width 576px, so it fills that box
+    instead of sitting inside a second, wider cap. Either declaration
+    alone centers the column; together they do not stack.
+    At 844px each gutter is 134px and a wrapped line reaches the right
+    edge, so the two sides match.
 
-  Why #7 was not enough on a real iPhone
-  ---------------------------------------
-  The previous rules used px media queries (768px–1023.98px) and set
-  max-width / margin without !important. Tailwind v4 emits md:max-w-4xl
-  (56rem) and the wider caps inside @layer utilities. Chromium lets the
-  later unlayered rule win, so DevTools at 844px computed 42rem and
-  86px/86px gutters. WebKit on the phone still used the layered utility.
-  56rem is wider than an ~852px landscape viewport, the cap never bit,
-  and the timeline stayed full-width and left-aligned (sm:px-0 had also
-  removed the side padding).
+  Desktop (1024px and up)
+    56rem (Tailwind max-w-4xl, 896px at a 16px root) with auto margins.
+    Narrower than the old 64rem cap, which was wider than the text
+    measure, and the width Vernon asked for (max-w-3xl/4xl). At 1280px
+    the longest line reaches the column edge and the gutters match
+    (scrollbar aside).
 
-  These rules use the same rem breakpoints as Tailwind (md = 48rem,
-  lg = 64rem) and !important on max-width, width, and the auto margins
-  so the cap wins in either engine. The lg block comes second and
-  replaces the 42rem cap, so desktop stays 64rem. No fractional px query.
+  Portrait widths below 768px are untouched.
 
-  The inner wrapper is px-6 sm:px-0, so landscape already has no side
-  padding. The md band restores 1rem. The lg block sets that padding
-  back to 0, which is what sm:px-0 already does on desktop.
-
-  Portrait widths below 48rem are untouched.
-
-  Delete this file, or revert these rules, to restore the theme widths.
+  To revert only this fix, delete this comment and the two @media
+  blocks below it. Leave the page-centering rules further down.
+  Deleting the whole file restores the theme widths exactly.
 */
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  section.blox-resume-experience {
+    padding-left: calc((100% - 576px) / 2) !important;
+    padding-right: calc((100% - 576px) / 2) !important;
+  }
+
   .blox-resume-experience > .max-w-3xl {
     width: 100% !important;
-    max-width: 42rem !important; /* narrower than phone landscape; 672px at a 16px root */
+    max-width: 576px !important; /* max-w-xl; narrower than an ~844px landscape phone */
     margin-left: auto !important;
     margin-right: auto !important;
     margin-inline: auto !important;
   }
 
-  /* sm:px-0 has zeroed the wrapper; keep a small inset inside the column. */
+  /* sm:px-0 already dropped the side padding; the section gutters are the inset. */
   .blox-resume-experience > .max-w-3xl > .w-full {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-    padding-inline: 1rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-inline: 0 !important;
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 1024px) {
   .blox-resume-experience > .max-w-3xl {
-    width: 100% !important;
-    max-width: 64rem !important; /* Tailwind max-w-screen-lg */
+    width: min(100%, 56rem) !important; /* Tailwind max-w-4xl */
+    max-width: 56rem !important;
     margin-left: auto !important;
     margin-right: auto !important;
     margin-inline: auto !important;
@@ -97,8 +103,10 @@
   TOC untouched. Papers/Projects collection grids and the Experience
   timeline do not use this row, so they are unchanged.
 
-  To remove only this fix, delete this comment and the @media block
-  below it. Leave the Experience rules above in place.
+  This block is desktop only (1024px and up). The phone block below it
+  is separate; deleting this comment and this @media block does not
+  remove the phone rules, and deleting the phone block does not change
+  this one.
 */
 
 @media (min-width: 1024px) {
@@ -122,5 +130,56 @@
   .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article .max-w-prose > .flex:has(> a[href*="/tags/"]) {
     flex-wrap: wrap;
     row-gap: 0.5rem;
+  }
+}
+
+/*
+  Same empty-TOC pages below 1024px (Learn JP on a phone).
+
+  #9 never ran here. `main` stays full width, `md:px-12` only insets it
+  48px, and `.prose` is max-width 65ch and left-aligned, so at 844px the
+  paragraph starts near 48px and ends about 200px short of the right edge.
+  The tag row is `flex` + `justify-center` without `flex-wrap`, so the
+  chips stay on one line (about 590px at 390px, about 720px at 844px)
+  and the page grows a horizontal scrollbar.
+
+  Cap `main` at the prose measure plus the padding that actually applies
+  (px-6 = 1.5rem each side below 768px, md:px-12 = 3rem each side from
+  768px). The paragraph then fills a centered column. Wrap the tag flex
+  so the chips cannot widen the page. The mobile drawer is
+  `position: fixed` below 1024px; this block does not set `display` on
+  the aside, so the menu still opens.
+
+  A page with real TOC links is excluded by `:not(:has(a))`. Collection
+  grids do not use this row.
+
+  To remove only the phone fix, delete this comment and the two @media
+  blocks below it.
+*/
+
+@media (max-width: 1023.98px) {
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article {
+    min-width: 0;
+    justify-content: center;
+  }
+
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article > main {
+    width: 100%;
+    max-width: min(100%, calc(65ch + 3rem));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article .max-w-prose > .flex:has(> a[href*="/tags/"]) {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .page-body > .mx-auto.flex > nav.hb-toc:not(:has(a)) ~ article > main {
+    max-width: min(100%, calc(65ch + 6rem));
   }
 }
