@@ -35,8 +35,12 @@
 
   Portrait widths below 768px are untouched.
 
-  To revert only this fix, delete this comment and the two @media
-  blocks below it. Leave the page-centering rules further down.
+  The timeline left inset for this same band is a separate block after
+  the desktop rule below. Deleting that block puts the timeline back on
+  the left edge of the column and does not change these column widths.
+
+  To revert only this column-width fix, delete this comment and the two
+  @media blocks below it. Leave the page-centering rules further down.
   Deleting the whole file restores the theme widths exactly.
 */
 
@@ -75,6 +79,43 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-inline: 0 !important;
+  }
+}
+
+/*
+  Left inset for the timeline between 768px and 1023.98px.
+
+  The rules above already center a 576px column in this band, and the
+  gutters match. The timeline inside that box is left-aligned and
+  ragged-right, so the ink still sits left of the page center. Measured
+  in Chromium at a 16px root, the width-weighted center of the timeline
+  text is about 75px left of the viewport center at 768, 844, 932, and
+  1023. That offset stays put because the column width stays put.
+
+  Padding the headings' parent would slide the centered "Experience"
+  and "Education" titles off the page center. Padding the ol would
+  leave the timeline rail and icons on the left edge of the column and
+  only push the words right. Margin on the ol moves the rail, the
+  icons, and the text together. The section's equal gutters stay equal.
+
+  4rem (64px at a 16px root) is as far as the inset can go without
+  wrapping "Adjunct Professor, Applied Behavioral Sciences (ABS)".
+  That title is 469px wide. At 4rem its line box is 487px; at 5rem it
+  is 471px, and it wraps at 5.5rem. 4rem moves the text's center of
+  mass from about -75px to about -25px. A 2.5rem inset only reaches
+  about -43px, so the column still reads left-heavy.
+
+  Portrait widths below 768px and desktop from 1024px are unchanged.
+
+  To undo only this inset, delete this comment and the @media block
+  below it. Leave the column-centering rules above and the empty-TOC /
+  Learn JP rules further down.
+*/
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  section.blox-resume-experience ol {
+    margin-left: 4rem !important;
+    width: calc(100% - 4rem) !important;
   }
 }
 
