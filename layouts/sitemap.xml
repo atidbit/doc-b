@@ -3,7 +3,7 @@
   <!-- Homepage - highest priority -->
   <url>
     <loc>https://atidbit.io/doc-b/</loc>
-    <lastmod>2026-01-15</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://atidbit.io/doc-b/experience/</loc>
-    <lastmod>2026-01-15</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
