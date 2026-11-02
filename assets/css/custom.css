@@ -85,37 +85,60 @@
 /*
   Left inset for the timeline between 768px and 1023.98px.
 
-  The rules above already center a 576px column in this band, and the
-  gutters match. The timeline inside that box is left-aligned and
-  ragged-right, so the ink still sits left of the page center. Measured
-  in Chromium at a 16px root, the width-weighted center of the timeline
-  text is about 75px left of the viewport center at 768, 844, 932, and
-  1023. That offset stays put because the column width stays put.
+  The rules above center a 576px column in this band, with equal
+  gutters. The "Experience" / "Education" headings are centered on
+  the viewport. The timeline inside the column is left-aligned, so
+  the rail and every line start well to the left of that heading.
 
-  Padding the headings' parent would slide the centered "Experience"
-  and "Education" titles off the page center. Padding the ol would
-  leave the timeline rail and icons on the left edge of the column and
-  only push the words right. Margin on the ol moves the rail, the
-  icons, and the text together. The section's equal gutters stay equal.
+  Padding the headings' parent would slide those titles off the page
+  center. Padding the ol would leave the rail and icons on the left
+  edge of the column and only push the words right. Margin on the ol
+  moves the rail, the icons, and the text together. The section's
+  equal gutters stay equal. The list's right edge stays on the
+  column's right edge (width is 100% minus the margin), so the page
+  does not grow a horizontal scrollbar.
 
-  4rem (64px at a 16px root) is as far as the inset can go without
-  wrapping "Adjunct Professor, Applied Behavioral Sciences (ABS)".
-  That title is 469px wide. At 4rem its line box is 487px; at 5rem it
-  is 471px, and it wraps at 5.5rem. 4rem moves the text's center of
-  mass from about -75px to about -25px. A 2.5rem inset only reaches
-  about -43px, so the column still reads left-heavy.
+  Measured in Chromium at 844×390, 16px root. Heading glyphs for
+  "Experience" run from 340px to 504px (viewport center is 422).
+  The same offsets hold at 768, 932, and 1023 because the column
+  width does not change.
+
+    inset   rail icon   text left   text center of mass   first title
+    4rem    187px       223px       5px left              one line (469px)
+    8rem    251px       287px       35px right            "(ABS)" alone on line 2
+    9rem    267px       303px       43px right            "Sciences (ABS)" on line 2
+
+  4rem (PR #12) left the rail 153px to the left of the heading word,
+  and the date line ended at 354px, almost entirely left of that word.
+  On a phone in landscape the stack still reads as a hard left hug
+  with a large empty right beside the short lines. A centered narrower
+  list was worse: the ragged-right gap came back and the center of
+  mass sat about 25px left again. Shifting the whole 576px column
+  right moved the heading off center, which is the part that already
+  looks right.
+
+  9rem is the inset that puts the rail near the heading instead of
+  out in the left gutter. It is just past the width where
+  "Adjunct Professor, Applied Behavioral Sciences (ABS)" breaks as
+  "…Applied Behavioral" / "Sciences (ABS)". At 8rem the second line
+  is only "(ABS)". "Adjunct Professor, Defense Management (DEFM)"
+  puts "(DEFM)" on its own line at 9rem. That wrap is accepted.
+  Visible timeline ink at 844px (icons plus text, header excluded)
+  moves from about 5px left of center to about 17px right.
 
   Portrait widths below 768px and desktop from 1024px are unchanged.
 
   To undo only this inset, delete this comment and the @media block
-  below it. Leave the column-centering rules above and the empty-TOC /
-  Learn JP rules further down.
+  below it, or put the margin and the width subtraction back to 4rem.
+  Leave the column-centering rules above and the empty-TOC / Learn JP
+  rules further down.
 */
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
   section.blox-resume-experience ol {
-    margin-left: 4rem !important;
-    width: calc(100% - 4rem) !important;
+    margin-left: 9rem !important;
+    margin-inline-start: 9rem !important;
+    width: calc(100% - 9rem) !important;
   }
 }
 
