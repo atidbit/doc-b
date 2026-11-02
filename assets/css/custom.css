@@ -1,70 +1,22 @@
 /*
-  Center the Experience / Education timeline.
+  Center the Experience / Education timeline on desktop (1024px and up).
 
-  Root cause (measured on the live #8 CSS, custom.min.1c0e770e)
-  -----------------------------------------------------------
-  #8's rule does win. At a 844px viewport Chromium computes the column
-  as 672px (42rem) with equal 86px margins. It still looks left-heavy
-  because the timeline is left-aligned and the wrapped lines do not
-  reach the right edge of that box. Ink on that screenshot sits about
-  102px from the left and about 185px from the right. 42rem is 80% of
-  an 844px phone, so the ragged-right gap is larger than the gutter and
-  the column reads as full-bleed. The same thing happens on desktop:
-  the 64rem cap wins (1024px, ~120px margins at 1280) but short lines
+  The theme's 64rem cap wins (~120px margins at 1280px) but short lines
   leave a wider empty right (~110px vs ~160px, plus the scrollbar).
-
   These rules stop fighting the theme max-width utilities.
 
-  Phone landscape and tablet (768px–1023.98px)
-    The section's inline padding is `5rem 0`. Horizontal padding here
-    uses !important, which beats that inline style, and it is in px so
-    a larger iOS text size cannot push the column back out to full
-    bleed. The content box is locked to 576px (Tailwind max-w-xl).
-    The child is width 100% / max-width 576px, so it fills that box
-    instead of sitting inside a second, wider cap. Either declaration
-    alone centers the column; together they do not stack.
-    At 844px each gutter is 134px and a wrapped line reaches the right
-    edge, so the two sides match.
+  56rem (Tailwind max-w-4xl, 896px at a 16px root) with auto margins.
+  Narrower than the old 64rem cap, which was wider than the text
+  measure, and the width Vernon asked for (max-w-3xl/4xl). At 1280px
+  the longest line reaches the column edge and the gutters match
+  (scrollbar aside).
 
-  Desktop (1024px and up)
-    56rem (Tailwind max-w-4xl, 896px at a 16px root) with auto margins.
-    Narrower than the old 64rem cap, which was wider than the text
-    measure, and the width Vernon asked for (max-w-3xl/4xl). At 1280px
-    the longest line reaches the column edge and the gutters match
-    (scrollbar aside).
+  Widths below 1024px use the theme's own Experience layout.
 
-  Portrait widths below 768px are untouched.
-
-  The timeline left inset for this same band is a separate block after
-  the desktop rule below. Deleting that block puts the timeline back on
-  the left edge of the column and does not change these column widths.
-
-  To revert only this column-width fix, delete this comment and the two
-  @media blocks below it. Leave the page-centering rules further down.
+  To revert only this desktop column, delete this comment and the
+  @media block below it. Leave the page-centering rules further down.
   Deleting the whole file restores the theme widths exactly.
 */
-
-@media (min-width: 768px) and (max-width: 1023.98px) {
-  section.blox-resume-experience {
-    padding-left: calc((100% - 576px) / 2) !important;
-    padding-right: calc((100% - 576px) / 2) !important;
-  }
-
-  .blox-resume-experience > .max-w-3xl {
-    width: 100% !important;
-    max-width: 576px !important; /* max-w-xl; narrower than an ~844px landscape phone */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-inline: auto !important;
-  }
-
-  /* sm:px-0 already dropped the side padding; the section gutters are the inset. */
-  .blox-resume-experience > .max-w-3xl > .w-full {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    padding-inline: 0 !important;
-  }
-}
 
 @media (min-width: 1024px) {
   .blox-resume-experience > .max-w-3xl {
@@ -79,66 +31,6 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-inline: 0 !important;
-  }
-}
-
-/*
-  Left inset for the timeline between 768px and 1023.98px.
-
-  The rules above center a 576px column in this band, with equal
-  gutters. The "Experience" / "Education" headings are centered on
-  the viewport. The timeline inside the column is left-aligned, so
-  the rail and every line start well to the left of that heading.
-
-  Padding the headings' parent would slide those titles off the page
-  center. Padding the ol would leave the rail and icons on the left
-  edge of the column and only push the words right. Margin on the ol
-  moves the rail, the icons, and the text together. The section's
-  equal gutters stay equal. The list's right edge stays on the
-  column's right edge (width is 100% minus the margin), so the page
-  does not grow a horizontal scrollbar.
-
-  Measured in Chromium at 844×390, 16px root. Heading glyphs for
-  "Experience" run from 340px to 504px (viewport center is 422).
-  The same offsets hold at 768, 932, and 1023 because the column
-  width does not change.
-
-    inset   rail icon   text left   text center of mass   first title
-    4rem    187px       223px       5px left              one line (469px)
-    8rem    251px       287px       35px right            "(ABS)" alone on line 2
-    9rem    267px       303px       43px right            "Sciences (ABS)" on line 2
-
-  4rem (PR #12) left the rail 153px to the left of the heading word,
-  and the date line ended at 354px, almost entirely left of that word.
-  On a phone in landscape the stack still reads as a hard left hug
-  with a large empty right beside the short lines. A centered narrower
-  list was worse: the ragged-right gap came back and the center of
-  mass sat about 25px left again. Shifting the whole 576px column
-  right moved the heading off center, which is the part that already
-  looks right.
-
-  9rem is the inset that puts the rail near the heading instead of
-  out in the left gutter. It is just past the width where
-  "Adjunct Professor, Applied Behavioral Sciences (ABS)" breaks as
-  "…Applied Behavioral" / "Sciences (ABS)". At 8rem the second line
-  is only "(ABS)". "Adjunct Professor, Defense Management (DEFM)"
-  puts "(DEFM)" on its own line at 9rem. That wrap is accepted.
-  Visible timeline ink at 844px (icons plus text, header excluded)
-  moves from about 5px left of center to about 17px right.
-
-  Portrait widths below 768px and desktop from 1024px are unchanged.
-
-  To undo only this inset, delete this comment and the @media block
-  below it, or put the margin and the width subtraction back to 4rem.
-  Leave the column-centering rules above and the empty-TOC / Learn JP
-  rules further down.
-*/
-
-@media (min-width: 768px) and (max-width: 1023.98px) {
-  section.blox-resume-experience ol {
-    margin-left: 9rem !important;
-    margin-inline-start: 9rem !important;
-    width: calc(100% - 9rem) !important;
   }
 }
 
