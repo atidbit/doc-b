@@ -11,7 +11,7 @@
   the longest line reaches the column edge and the gutters match
   (scrollbar aside).
 
-  Widths below 1024px use the theme's own Experience layout.
+  Widths below 1024px are the grid block immediately below this one.
 
   To revert only this desktop column, delete this comment and the
   @media block below it. Leave the page-centering rules further down.
@@ -31,6 +31,78 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-inline: 0 !important;
+  }
+}
+
+/*
+  Center the Experience / Education timeline below 1024px.
+
+  From 640px up the theme drops the side padding (`sm:px-0` is
+  `padding-inline: 0`) while `md:max-w-4xl` (56rem) is still wider than
+  a landscape phone. At 844px the column is the full viewport, the
+  timeline rail sits on the left screen edge, and the icon (`-start-3`
+  plus `ring-8`) is clipped to about x=-11. Short lines then sit in a
+  wide box, which reads as a left hug. Portrait under 640px already has
+  `px-6` and is balanced; this block keeps that and fixes 640–1023.
+
+  Capping the column (42rem / 576px) and then shoving the `ol` right
+  with a 4rem or 9rem margin did not fix it. The list was left-aligned
+  inside a box that was still wider than the text, so the right side of
+  that box stayed empty, job titles wrapped, and iOS still looked
+  left-heavy. Padding the `ol` only moved the words, not the rail.
+
+  This block changes the section layout instead of insetting the list.
+  Below 1024px the section is a 3-column grid: equal flexible gutters
+  of at least 1.5rem, and a center track of `min(65ch, 100% - 3rem)`.
+  65ch is Tailwind `max-w-prose`, the measure Skills and Languages
+  already use, so those blocks line up with the timeline. The `100% - 3rem`
+  cap keeps a real gutter when 65ch is wider than the viewport (portrait,
+  and large iOS text). The icon hangs 0.75rem off the rail and fits in
+  the 1.5rem minimum gutter. `min-width: 0` lets the theme's flex column
+  shrink so the text wraps inside the track instead of forcing the
+  column back to full bleed.
+
+  Desktop from 1024px is the block above and is unchanged.
+  Empty-TOC / Learn JP rules below are unchanged.
+
+  To revert only this, delete this comment and the @media block under it.
+*/
+
+@media (max-width: 1023.98px) {
+  section.blox-resume-experience {
+    display: grid !important;
+    grid-template-columns:
+      minmax(1.5rem, 1fr)
+      min(65ch, calc(100% - 3rem))
+      minmax(1.5rem, 1fr) !important;
+  }
+
+  section.blox-resume-experience > .max-w-3xl {
+    grid-column: 2 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-inline: 0 !important;
+  }
+
+  .blox-resume-experience > .max-w-3xl > .w-full {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-inline: 0 !important;
+  }
+
+  /* Let the flex children wrap inside the center track.
+     Do not set width:100% on the li: ms-6 is a margin, and a 100% width
+     plus that margin would spill out of the column. */
+  .blox-resume-experience ol,
+  .blox-resume-experience li {
+    max-width: 100%;
+    min-width: 0;
   }
 }
 
