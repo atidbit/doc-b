@@ -13,7 +13,7 @@ sections:
     content:
       title: Papers
       text:
-      count: 7
+      count: 0
       filters:
         folders:
           - publications
